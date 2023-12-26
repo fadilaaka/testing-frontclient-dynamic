@@ -8,7 +8,6 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
     <style>
-      /* CSS untuk membuat konten rata tengah */
       .content-section {
         text-align: center;
         padding: 50px 0;
@@ -19,25 +18,27 @@
     <div class="container">
       <section class="content-section">
         <h2>About</h2>
-        <p>Ini adalah bagian "About" dari website.</p>
+        <p id="aboutcontent"></p>
       </section>
 
       <section class="content-section">
         <h2>Service</h2>
-        <p>Ini adalah bagian "Service" dari website.</p>
+        <p id="servicecontent"></p>
       </section>
 
       <section class="content-section">
         <h2>Why Us</h2>
-        <p>Ini adalah bagian "Why Us" dari website.</p>
+        <p id="whyuscontent"></p>
       </section>
 
       <section class="content-section">
         <h2>Image</h2>
-        <img src="*" alt="Gambar" class="img-fluid" />
+        <img id="imagecontent" src="" alt="Gambar" class="img-fluid" />
       </section>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./api.js"></script>
   </body>
 </html>
